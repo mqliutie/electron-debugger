@@ -1,0 +1,22 @@
+{
+  "name": "electron-debugger",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "electron ./main.js",
+    "build-renderer": "webpack"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@types/node": "^17.0.10",
+    "babel-loader": "^8.1.0",
+    "electron": "^12.1.1",
+    "electron-devtools-installer": "^3.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "webpack": "4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
